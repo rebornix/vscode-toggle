@@ -7,6 +7,14 @@
     "engines": {
         "vscode": "^1.9.0"
     },
+    "bugs": {
+        "url": "https://github.com/rebornix/vscode-toggle/issues"
+    },
+    "homepage": "https://github.com/rebornix/vscode-toggle",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rebornix/vscode-toggle"
+    },
     "categories": [
         "Other"
     ],
