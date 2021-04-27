@@ -2,7 +2,7 @@
     "name": "toggle",
     "displayName": "Toggle",
     "description": "Toggle settings in Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "rebornix",
     "engines": {
         "vscode": "^1.9.0"
@@ -15,6 +15,11 @@
     ],
     "icon": "round-toggle.png",
     "main": "./out/src/extension",
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        }
+    },
     "contributes": {
         "commands": [{
             "command": "toggle",
