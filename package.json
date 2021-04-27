@@ -21,21 +21,22 @@
         }
     },
     "contributes": {
-        "commands": [{
-            "command": "toggle",
-            "title": "Toggle"
-        }]
+        "commands": [
+            {
+                "command": "toggle",
+                "title": "Toggle"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
-        "compile": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
+        "compile": "tsc -watch -p ./"
     },
     "devDependencies": {
-        "typescript": "^2.0.3",
-        "vscode": "^1.0.0",
-        "mocha": "^2.3.3",
-        "@types/node": "^6.0.40",
-        "@types/mocha": "^2.2.32"
+        "@types/mocha": "^2.2.0",
+        "@types/node": "^12.12.0",
+        "@types/vscode": "^1.55.0",
+        "mocha": "^8.3.2",
+        "typescript": "^4.2.2"
     }
 }
