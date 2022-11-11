@@ -36,7 +36,7 @@
         "@types/mocha": "^2.2.0",
         "@types/node": "^12.12.0",
         "@types/vscode": "^1.55.0",
-        "mocha": "^8.3.2",
+        "mocha": "^10.1.0",
         "typescript": "^4.2.2"
     }
 }
